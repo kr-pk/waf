@@ -1,0 +1,40 @@
+body,
+html {
+  background: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+#display {
+  width: 100%;
+  font-size: 72px;
+  color: skyblue;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.buttons button:hover {
+  color: rgb(5, 0, 0);
+  background-color: rgb(147, 202, 147);
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  font-size: 18px;
+  background-color: black;
+  border: 5px;
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+}
