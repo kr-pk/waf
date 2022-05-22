@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Welcome To The Registration Form</title>
+  </head>
+  <body>
+    <h1>....Welcome To The Registration Form....</h1>
+    <div class="container">
+      <form
+        action="/myaction.php"
+        name="myForm"
+        onsubmit="return validateForm()"
+        method="post"
+      >
+        <div class="name">
+          <label for=""> Name*: </label>&nbsp;
+          <input type="text" name="name" id="name" required/><br /><br />
+        </div>
+        <div class="address">
+          <label for=""> Address*: </label> <br />
+          <textarea name="address" id="" cols="18" rows="3" required></textarea
+          > <br /><br />
+        </div>
+        <div class="date">
+          <label for=""> DOB: </label>&nbsp;
+          <input type="date" name="dob" id="dob" required/><br /><br />
+        </div>
+        <div class="mob">
+          <label for=""> Mob.: </label>&nbsp;
+          <input type="phone" name="mob" id="mob" required/>
+          <br /><br />
+        </div>
+        <div class="email">
+          <label for=""> Email: </label>&nbsp;
+          <input type="email" name="email" id="email" required/><br /><br />
+          </span>
+        </div>
+        <div class="gender">
+          <label for=""> Gender: </label>&nbsp;
+          <input type="radio" name="gender" id="" required/>
+          <label for="">Male</label> &nbsp;
+          <input type="radio" name="gender" id="" required/>
+          <label for="">Female</label> <br /><br />
+        </div>
+        <div class="state">
+          <label for="">State: </label>&nbsp;
+          <select name="" id="" required>
+            <option value="" selected disabled>Select A State</option>
+            <option value="">Bihar</option>
+            <option value="">Delhi</option>
+            <option value="">Maharashtra</option>
+            <option value="">Tamil Nadu</option>
+            <option value="">Andhra Pradesh</option>
+            <option value="">Kerala</option>
+            <option value="">Assam</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">Jharkhand</option>
+            <option value="">Arunachal Pradesh</option>
+            <option value="">Chhattisgarh</option>
+            <option value="">Haryana</option>
+            <option value="">Gujarat</option>
+            <option value="">Goa</option>
+            <option value="">Karnataka</option>
+            <option value="">Odisha</option>
+            <option value="">Himachal Pradesh</option>
+            <option value="">Sikkim</option>
+            <option value="">Punjab</option>
+            <option value="">Meghalaya</option>
+            <option value="">Mizoram</option>
+            <option value="">Rajasthan</option>
+            <option value="">Telangana</option>
+            <option value="">Madhya Pradesh</option>
+            <option value="">Uttarakhand</option>
+            <option value="">Jammu & Kashmir</option>
+            <option value="">Manipur</option>
+            <option value="">Nagaland</option>
+            <option value="">West Bengal</option>
+          </select>
+          <br /><br /><br />
+        </div>
+        <div class="reset">
+          <input type="reset" value="Reset Form" />
+        </div>
+        <br />
+        <div class="submit">
+          <input type="submit" value="Submit Form" />
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
